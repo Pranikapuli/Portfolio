@@ -6,7 +6,7 @@ import { ABCBunting, ClassroomBorder, PushPin, HandDrawnUnderline } from '../com
 function buildItems() {
   return testimonials.images.map((f, i) => ({
     id: `t${i}`,
-    src: `/src/assets/testimonials/${f}`,
+    src: `/testimonials/${f}`,
   }))
 }
 

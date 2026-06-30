@@ -6,7 +6,7 @@ import { ABCBunting, ClassroomBorder, HandDrawnUnderline } from '../components/D
 function buildImages() {
   return artwork.images.map((f, i) => ({
     id: `r${i}`,
-    src: `/src/assets/artwork/${f}`,
+    src: `/artwork/${f}`,
     alt: `Artwork ${i + 1}`,
   }))
 }

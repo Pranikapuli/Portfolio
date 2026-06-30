@@ -11,7 +11,7 @@ export const personal = {
   email: 'ms.pranikapuli@gmail.com',
   phone: '+91 86675 53180',
   linkedin: '',
-  heroPhotoPath: '/src/assets/pranika.jpg',
+  heroPhotoPath: '/pranika.jpg',
   tagline: 'Nurturing curious minds, one joyful discovery at a time.',
 }
 
